@@ -23,7 +23,7 @@ import br.edu.ifms.ordem.services.exceptions.ResourceNotFoundException;
 @Service
 public class EquipamentoService {
 	
-	@Autowired
+	//@Autowired
 	private EquipamentoRepository repository;
 
 	@Transactional(readOnly = true)
